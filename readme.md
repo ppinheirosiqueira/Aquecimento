@@ -48,7 +48,7 @@
 #### calcularResultante
 <p align="justify">Esta é uma função simples, ela tenta ler o arquivo de matriz através da função lerArquivo. Caso consiga, fará sua transposta e a multiplicação de ambas as matrizes, salvando a matriz resultante na Hash no final.</p>
 
-### lerArquivo
+#### lerArquivo
 <p align="justify">Uma das funções principais do programa. Utiliza-se do feito comentado na Primeira Opção ao criar o arquivo. Para iniciar, a função começa lendo o arquivo matriz.txt linha a linha. Como mencionado anteriormente, sabemos que todos os números neste arquivo possui 2 caracteres e após isso um espaço, assim, sabe-se que a coluna 0 encontra-se nos caracteres 0 e 1 da linha, como também se sabe que a coluna 5 encontra-se nos caracteres 12 e 13. Sendo assim possível estimar que a leitura precisa ser feita na linha utilizando o j como parâmetro, onde a Coluna a ser lida seria igual a (coluna-1)*3 e o próximo caracter após esta conta. O -1 se daria por conta de trabalharmos geralmente com indice 0 e o multiplicado por 3 por sabermos que cada número possui 2 digitos sempre em nosso arquivo.</p>
 
 <p align="justify">Com isto tudo em mente, logo no começo é realizado um teste, a linha é lida e é checado se o tamanho dela é compatível com a última coordenada de j. Pois caso se peça para ler a coluna 20 e só existam 30 caracteres na linha, já se sabe logo no início que o valor de coordenada é inválido e assim a função retorna que não foi possível ler a matriz requisitada.</p>
@@ -86,7 +86,7 @@
 
 <p align="justify">Ao ser chamada, logo começa a captação de cada coordenada do arquivo que está representado na imagem abaixo. Este arquivo foi idealizado para mostrar os diversos pontos do programa de acordo com a entrada 10x10 criada.</p>
 
-<img src="imgs/Coordenadas.png" width="400px"/>
+<img src="imgs/Coordenadas.png" width="200px"/>
 
 ### Saídas da 2ª Opção:
 
